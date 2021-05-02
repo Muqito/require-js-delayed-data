@@ -3,7 +3,8 @@ define('data', ['ractive'], (Ractive) => {
     id: 1,
     name: 'Christoffer'
   };
-  return new Promise((resolve) => {
+  return new Promise(async (resolve) => {
+    await fetch('https://httpbin.org/status/200');
     setTimeout(resolve, 3500, user);
   });
 });
