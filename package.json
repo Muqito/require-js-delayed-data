@@ -1,0 +1,11 @@
+{
+  "name": "reactive-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christoffer Lantz <christoffer.lantz@androidbutiken.net>",
+  "license": "MIT",
+  "dependencies": {
+    "ractive": "^1.3.14",
+    "requirejs": "^2.3.6"
+  }
+}
